@@ -6,6 +6,7 @@
     text-align: center;
     padding-top: 20px;
     font-family: 'Comfortaa', cursive;
+    background-color: #7fffd4;
 }
 
 .players>div {
@@ -162,3 +163,4 @@
     padding: 0px;
     margin: -5px;
 }
+

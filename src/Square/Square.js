@@ -24,10 +24,11 @@ export default function Square(props) {
 
   return (
    
+<div className={`square  ${(parseInt(col)+parseInt(row)) %2==0? "blackColor " :"whiteColor "}`}>
+<div className={`  ${(parseInt(col)+parseInt(row)) %2==0? " player-r" :" player-b"}`}></div>
 
-     <span className={`square  ${(parseInt(col)+parseInt(row)) %2==0? "blackColor":"whiteColor"}`}>
+</div>
 
-    </span>
   );
 
 }
